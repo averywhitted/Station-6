@@ -40,7 +40,5 @@ public class DebrisObject : MonoBehaviour
         float randomNumber = Random.Range(0.25f, scaleRange);
         Vector3 randomScale = new Vector3(randomNumber, randomNumber, randomNumber);
         transform.localScale += randomScale;
-
-        //Test Change for Git
     }
 }
