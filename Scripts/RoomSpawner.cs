@@ -9,6 +9,7 @@ public class RoomSpawner : MonoBehaviour
     // 2 - Top Door
     // 3 - Left Door
     // 4 - Right Door
+    // Don't worry about making a Destroyer object just copy a Spawn Point, move it to the center of the room, change the openingDir to 0 and set Spawned to true in the inspector before runtime.
 
     private RoomTemplates templates;
     private int random;
